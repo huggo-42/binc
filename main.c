@@ -1,9 +1,7 @@
+#include <stdio.h>
 #include <time.h>
 
 #include "./raylib/raylib.h"
-
-#define NOB_IMPLEMENTATION
-#include "nob.h"
 
 #define rec_width 100
 #define rec_height 100
@@ -218,7 +216,10 @@ static void draw_binary_clock(int hour, int min, int sec)
     } else {
         DrawRectangleLines(680, 380, rec_width, rec_height, BLUE);
     }
-    DrawText(nob_temp_sprintf("For noobs: %02d:%02d:%02d", hour, min, sec), 295, 520, 22, RED);
+
+    char time_str[20];
+    snprintf(time_str, 20, "For noobs: %02d:%02d:%02d", hour, min, sec);
+    DrawText(time_str, 295, 520, 22, RED);
 }
 
 int main ()
