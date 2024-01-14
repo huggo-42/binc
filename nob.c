@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     nob_cmd_append(&cmd, "-Wall", "-Wextra", "-ggdb");
     // I -> include path
     nob_cmd_append(&cmd, "-I./raylib/");
-    nob_cmd_append(&cmd, "-o", "binclock");
+    nob_cmd_append(&cmd, "-o", "binc");
     nob_cmd_append(&cmd, "main.c");
     // -L -> library path
     nob_cmd_append(&cmd, "-L./raylib/");
