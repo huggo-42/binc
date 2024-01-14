@@ -220,7 +220,7 @@ static void draw_binary_clock(int hour, int min, int sec)
 
 int main ()
 {
-    InitWindow(800, 500, "Binary Clock");
+    InitWindow(800, 500, "Binc");
     while (!WindowShouldClose())
     {
         BeginDrawing();
