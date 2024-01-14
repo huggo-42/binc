@@ -1,7 +1,7 @@
 # Binc
 
 <p align=center>
-  <img src="https://github.com/huggo-42/binary-clock/assets/126027768/a2b0ec27-52fc-487e-9319-f354a6040e59">
+  <img src="https://github.com/huggo-42/binc/assets/126027768/fb3405cf-26b5-4904-ae6a-09d7fd637eaf">
 </p>
 
 Binary clock written in C using raylib and nob build system.
