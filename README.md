@@ -1,10 +1,14 @@
 # Binc
 
-Binary clock written in C.
+<p align=center>
+  <img src="https://github.com/huggo-42/binary-clock/assets/126027768/a2b0ec27-52fc-487e-9319-f354a6040e59">
+</p>
+
+Binary clock written in C using raylib and nob build system.
+
+> Took nob from https://github.com/tsoding/musializer
 
 ## Build from Source
-
-External Dependencies:
 
 ### Linux
 
@@ -12,15 +16,4 @@ External Dependencies:
 $ cc -o nob nob.c # ONLY ONCE!!!
 $ ./nob
 $ ./build/binc
-```
-
-### Cross Compilation from Linux to Windows using MinGW-w64
-
-Install [MinGW-w64](https://www.mingw-w64.org/) from your distro repository.
-
-Edit `./build/config.h` and set `MUSIALIZER_TARGET` to `TARGET_WIN64_MINGW`.
-
-```console
-$ ./nob
-$ wine ./build/musializer.exe
 ```
