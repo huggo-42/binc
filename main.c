@@ -216,15 +216,11 @@ static void draw_binary_clock(int hour, int min, int sec)
     } else {
         DrawRectangleLines(680, 380, rec_width, rec_height, BLUE);
     }
-
-    char time_str[20];
-    snprintf(time_str, 20, "For noobs: %02d:%02d:%02d", hour, min, sec);
-    DrawText(time_str, 295, 520, 22, RED);
 }
 
 int main ()
 {
-    InitWindow(800, 550, "Binary Clock");
+    InitWindow(800, 500, "Binary Clock");
     while (!WindowShouldClose())
     {
         BeginDrawing();
